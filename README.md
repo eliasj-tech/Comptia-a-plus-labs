@@ -7,18 +7,21 @@ Inside, you will find detailed write-ups of my configurations, command-line oper
 ---
 
 ## 🛠️ Core Skills Documented
-* **Operating Systems:** Windows 10/11
-* **Command Line / Scripting:** PowerShell, Command Prompt (CMD)
-* **SysAdmin Basics:** Software deployment (silent switches), archiving, file permission workarounds
+* **Operating Systems:** Windows 10/11, Ubuntu Linux (Debian-based)
+* **Command Line / Scripting:** PowerShell, Command Prompt (CMD), Bash Shell
+* **SysAdmin Basics:** Software deployment (silent switches), Debian package management (`dpkg` & `apt`), dependency troubleshooting, and archive manipulation (`tar` & `zip`)
 
 ---
 
 ## 📚 Lab Logs & Documentation (Table of Contents)
 
-Below is the chronological log of my hands-on practice. Click the link to view the complete lab write-up:
+Below is the chronological log of my hands-on practice. Click on any link to view the complete, detailed lab write-up:
 
-### 📦 Windows Administration
+### 📦 OS Administration & Package Management
+
 1. **[Lab 01: Software Packaging & File Archiving on Windows](01-windows-archiving-and-packaging.md)** *Practiced GUI and PowerShell installations, silent software deployments, and tar/zip compression while overcoming file system permission restrictions.*
+
+2. **[Lab 02: Software Packaging & File Archiving on Linux](02-linux-archiving-and-packaging.md)** *Mastered low-level (`dpkg`) and high-level (`apt`) package tools, resolved broken package dependencies (`apt install -f`), extracted archives, and packaged multiple directories using absolute system paths.*
 
 ---
 
