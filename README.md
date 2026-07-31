@@ -10,7 +10,7 @@ Inside, you will find detailed write-ups of my configurations, command-line oper
 * **Operating Systems:** Windows 10/11, Ubuntu Linux (Debian-based)
 * **Command Line / Scripting:** PowerShell, Command Prompt (CMD), Bash Shell
 * **SysAdmin Basics:** Software deployment (silent switches), Debian package management (`dpkg` & `apt`), dependency troubleshooting, and archive manipulation (`tar` & `zip`)
-* **Storage Management:** Disk initialization, volume shrinking/provisioning, and file system formatting (NTFS, FAT32) using Windows Disk Management
+* **Storage Management:** Disk initialization, volume shrinking/provisioning, partition table modification (`fdisk`), file system formatting (NTFS, FAT32, ext4 via `mkfs`), Linux Swap configuration, and filesystem mounting (`mount`)
 
 ---
 
@@ -27,6 +27,8 @@ Below is the chronological log of my hands-on practice. Click on any link to vie
 ### 💽 Storage Management & File Systems
 
 3. **[Lab 03: Disk Partitioning and Formatting on Windows](03-windows-disk-partitioning-and-formatting.md)** *Practiced initializing offline disks, shrinking active volumes to provision unallocated space, creating new simple volumes, and formatting partitions to FAT32 while navigating destructive formatting warnings.*
+
+4. **[Lab 04: Disk Partitioning and Formatting on Linux](04-linux-disk-partitioning-and-formatting.md)** *Identified block devices (`lsblk`), partitioned unmounted disks in interactive mode (`fdisk`), assigned a dedicated Linux Swap partition, formatted an ext4 file system (`mkfs`), and mounted the drive to `/home/my_drive`.*
 
 ---
 
