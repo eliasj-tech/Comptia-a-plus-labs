@@ -11,6 +11,7 @@ Inside, you will find detailed write-ups of my configurations, command-line oper
 * **Command Line / Scripting:** PowerShell, Command Prompt (CMD), Bash Shell
 * **SysAdmin Basics:** Software deployment (silent switches), Debian package management (`dpkg` & `apt`), dependency troubleshooting, and archive manipulation (`tar` & `zip`)
 * **Storage Management:** Disk initialization, volume shrinking/provisioning, partition table modification (`fdisk`), file system formatting (NTFS, FAT32, ext4 via `mkfs`), Linux Swap configuration, and filesystem mounting (`mount`)
+* **Process & System Administration:** Process identification, resource utilization monitoring, wildcard pattern searches (`Get-Process`), force-terminating hung/rogue processes by PID (`taskkill`), and PowerShell administrative session management
 
 ---
 
@@ -29,6 +30,10 @@ Below is the chronological log of my hands-on practice. Click on any link to vie
 3. **[Lab 03: Disk Partitioning and Formatting on Windows](03-windows-disk-partitioning-and-formatting.md)** *Practiced initializing offline disks, shrinking active volumes to provision unallocated space, creating new simple volumes, and formatting partitions to FAT32 while navigating destructive formatting warnings.*
 
 4. **[Lab 04: Disk Partitioning and Formatting on Linux](04-linux-disk-partitioning-and-formatting.md)** *Identified block devices (`lsblk`), partitioned unmounted disks in interactive mode (`fdisk`), assigned a dedicated Linux Swap partition, formatted an ext4 file system (`mkfs`), and mounted the drive to `/home/my_drive`.*
+
+### ⚡ Process & System Management
+
+5. **[Lab 05: Process Maintenance on Windows](05-windows-process-maintenance.md)** *Isolated rogue processes using exact and wildcard searches (`Get-Process`), force-terminated instances by PID (`taskkill /F /PID`), and analyzed behavior differences between exact-string error handling and wildcard queries in administrative PowerShell.*
 
 ---
 
