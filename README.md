@@ -11,7 +11,7 @@ Inside, you will find detailed write-ups of my configurations, command-line oper
 * **Command Line / Scripting:** PowerShell, Command Prompt (CMD), Bash Shell
 * **SysAdmin Basics:** Software deployment (silent switches), Debian package management (`dpkg` & `apt`), dependency troubleshooting, and archive manipulation (`tar` & `zip`)
 * **Storage Management:** Disk initialization, volume shrinking/provisioning, partition table modification (`fdisk`), file system formatting (NTFS, FAT32, ext4 via `mkfs`), Linux Swap configuration, and filesystem mounting (`mount`)
-* **Process & System Administration:** Process identification, resource utilization monitoring, wildcard pattern searches (`Get-Process`), force-terminating hung/rogue processes by PID (`taskkill`), and PowerShell administrative session management
+* **Process & System Administration:** Process identification, resource utilization monitoring, force-terminating hung/rogue processes by PID (Windows `taskkill`, Linux `kill`), string filtering with `grep`, and administrative session management
 
 ---
 
@@ -34,6 +34,8 @@ Below is the chronological log of my hands-on practice. Click on any link to vie
 ### ⚡ Process & System Management
 
 5. **[Lab 05: Process Maintenance on Windows](05-windows-process-maintenance.md)** *Isolated rogue processes using exact and wildcard searches (`Get-Process`), force-terminated instances by PID (`taskkill /F /PID`), and analyzed behavior differences between exact-string error handling and wildcard queries in administrative PowerShell.*
+
+6. **[Lab 06: Process Maintenance on Linux](06-linux-process-maintenance.md)** *Utilized terminal piping to filter system processes (`ps -aux | grep`), identified root-owned process IDs, and executed elevated privilege terminations (`sudo kill`) for single and multiple batch processes.*
 
 ---
 
